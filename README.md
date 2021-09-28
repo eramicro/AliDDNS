@@ -3,17 +3,17 @@ AliDDNS 2.0 部署教程
 首先，登录你的服务器，安装必需组件：
 
 For CentOS：
-'''bash
+```bash
 yum install -y wget curl cronie
-'''
+```
 For Debian 8+：
-
+```bash
 apt install -y wget curl cron
-
+```
 For Ubuntu/Debian 7：
-
+```bash
 apt-get install -y wget curl cron
-
+```
 然后下载AliDDNS脚本到你的服务器上：
 
 wget -O /usr/sbin/AliDDNS-v2.0.sh https://ilemonrain.com/download/shell/AliDDNSv2.sh
