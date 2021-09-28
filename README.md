@@ -3,9 +3,9 @@ AliDDNS 2.0 部署教程
 首先，登录你的服务器，安装必需组件：
 
 For CentOS：
-
+'''bash
 yum install -y wget curl cronie
-
+'''
 For Debian 8+：
 
 apt install -y wget curl cron
