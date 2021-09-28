@@ -16,7 +16,7 @@ apt-get install -y wget curl cron
 ```
 然后下载AliDDNS脚本到你的服务器上：
 ```bash
-wget -O /usr/sbin/AliDDNS-v2.0.sh https://raw.githubusercontent.com/eramicro/AliDDNS/master/aliddnsv2.sh
+wget -O /usr/sbin/Aliddnsv2.sh https://raw.githubusercontent.com/eramicro/AliDDNS/master/aliddnsv2.sh
 ```
 为脚本文件加上可执行属性：
 ```bash
