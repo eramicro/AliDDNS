@@ -30,7 +30,7 @@ chmod +x /usr/sbin/aliddnsv2.sh
 * 请输入阿里云AccessKey ID
 * 请输入阿里云Access Key Secret
 
-填写完成后，新版的AliDDNS 2.0如果没有激活专家模式，会直接进入执行流程；如果启动了专家模式，以下参数请在你理解的基础上填写！否则请一律留空！
+填写完成后，新版的AliDDNS 2.0如果没有激活专家模式，会直接进入执行流程;
 
 ###  定时任务
 ```bash
