@@ -114,7 +114,7 @@ AccessKey ID 和 AccessKey Secret 推荐使用 子用户AccessKey(访问控制�
 
 出现最后的 DDNS记录更新成功 提示，即为DDNS记录同步成功，稍后等待DNS解析生效，即可完成DDNS域名更换！
 
-### 3. Crontab (定时任务) 部署教程
+###  Crontab (定时任务) 部署教程
 首先，在命令行执行命令：
 
 crontab -e
