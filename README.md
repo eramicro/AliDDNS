@@ -111,43 +111,11 @@ AccessKey ID 和 AccessKey Secret 推荐使用 子用户AccessKey(访问控制�
 出现最后的 DDNS记录更新成功 提示，即为DDNS记录同步成功，稍后等待DNS解析生效，即可完成DDNS域名更换！
 
 ###  定时任务
-首先，在命令行执行命令：
-
-crontab -e
-会弹出一个提示，问选择哪个编辑器，请按照自己的喜好选择一个文本编辑器：
-
-Select an editor. To change later, run 'select-editor'.
-
-/bin/nano <---- easiest
-/usr/bin/vim.basic
-/usr/bin/vim.tiny
-Choose 1-3 [1]:
-
-选择完成后，会打开一个文本编辑器，请在文件的最后添加如下一行：
+```bash
+vi /etc/crotab
+```
 ```bash
 */5 * * * * /usr/sbin/aliddnsv2.sh run >/dev/null 2>&1 &
 ```
 添加完成后，保存退出。
 
-当提示 crontab: installing new crontab 时，表示crontab写入成功，执行命令重启cron进程：
-
-For CentOS：
-```bash
-service crond restart
-```
-For Ubuntu/Debian：
-```bash
-service cron restart
-```
-
-### 并将Cron加入开机启动项：
-
-For CentOS：
-```bash
-chkconfig crond on
-```
-For Ubuntu/Debian：
-```bash
-systemctl enable cron
-```
-即可完成定时任务的部署。
