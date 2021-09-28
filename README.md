@@ -142,7 +142,9 @@ For Ubuntu/Debian：
 ```bash
 service cron restart
 ```
-并将Cron加入开机启动项：
+
+## 并将Cron加入开机启动项：
+
 For CentOS：
 ```bash
 chkconfig crond on
