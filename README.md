@@ -76,9 +76,7 @@ TTL： [请根据实际需要选择合适的TTL]
 (此项必须填写，查看帮助请输入“h”):
 AccessKey ID 和 AccessKey Secret 推荐使用 子用户AccessKey(访问控制台RAM) 分配的权限！这样最安全！
 
-使用子用户AccessKey，请分配 AliyunDNSReadOnlyAccess(只读访问云解析(DNS)的权限) 和 AliyunDNSFullAccess(管理云解析(DNS)的权限) 这两个权限！推荐有动手能力的用户使用子用户AccessKey！
-
-如果不会操作或者图省事，请使用 全局AccessKey ！但此时一定要注意！千万不要泄露你的全局AccessKey或者将你的全局AccessKey发布到公网上！这样等同于把你的号白送人，还可以名正言顺的白嫖你的阿里云账号！如果发生泄露，请立刻删除泄露的AccessKey！
+使用子用户AccessKey，请分配 AliyunDNSReadOnlyAccess(只读访问云解析(DNS)的权限) 和 AliyunDNSFullAccess(管理云解析(DNS)的权限) 这两个权限！
 
 填写完成后，按下回车键继续：
 
