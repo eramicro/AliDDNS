@@ -116,7 +116,7 @@ AccessKey ID 和 AccessKey Secret 推荐使用 子用户AccessKey(访问控制�
 
 出现最后的 DDNS记录更新成功 提示，即为DDNS记录同步成功，稍后等待DNS解析生效，即可完成DDNS域名更换！
 
-3. Crontab (定时任务) 部署教程
+### 3. Crontab (定时任务) 部署教程
 首先，在命令行执行命令：
 
 crontab -e
@@ -151,23 +151,3 @@ For Ubuntu/Debian：
 
 systemctl enable cron
 即可完成定时任务的部署。
-
-4. 常见问题 FAQ
-FAQ1：脚本是原创的嘛？遵循开源协议了嘛？
-脚本核心是基于koolshare的aliddns脚本制作，在原有的基础上进行改动，以实现平台移植和更好的环境适应。开源协议是什么？好吃么？（也欢迎各位大佬给我科普下什么是GPL协议，还有其具体作用）
-
-FAQ2：脚本目前保存在了哪里？以后会删库跑路嘛？
-脚本目前保存在了BitBucket（因为GitHub同名账号不是本人），如果我不改ID或者彻底弃坑的话，我应该不会删项目（但当整个项目成熟到一定程度后，我会将项目的开发进入休眠期，也就是长时间不再进行新功能的开发，仅做BUG修改）
-
-FAQ3：这个脚本需要修改脚本内容嘛？
-不需要！甚至你不应该修改！（相对于2.0版本，1.0版本请作对应修改）请直接运行脚本即可，脚本已自带完善的配置向导
-
-FAQ4：那AliDDNS 1.0版本以后会怎么处理？
-我会逐步放弃开发AliDDNS 1.0版本，目前会修复所有BUG，直到稳定后，放弃1.0版本的开发，转而开发2.0版本以及接锅tcp-nanqinglang项目
-
-(更多FAQ有待补充)
-
-5. 联系作者 & BUG建议反馈 & 吃土求捐赠！
-Telegram：https://t.me/ilemonrain
-Telegram个人频道：https://t.me/ilemonrain_channel
-捐赠方式：TG私信获取
