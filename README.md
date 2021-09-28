@@ -24,7 +24,7 @@ chmod +x /usr/sbin/aliddnsv2.sh
 ```bash
 /usr/sbin/aliddnsv2.sh
 ```
-* 请输入一级域名 :example.com（一定要登录阿里云云解析添加一个记录，脚本才能正确运行）
+* 请输入一级域名 :example.com（一定要提前登录阿里云云解析添加一个记录，脚本才能正确运行）
 * 请输入二级域名 ：www
 * 请输入记录的TTL(Time-To-Live)值：600
 * 请输入阿里云AccessKey ID
