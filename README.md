@@ -46,7 +46,7 @@ AliDDNS.sh version 显示版本信息
 
 * [Info] 请输入一级域名 :example.com
 
-<summary><font  color="red"  >同时，登录阿里云云解析 https://dns.console.aliyun.com/，在需要DDNS的域名上，添加一个记录：</summary>
+<summary><font color="red">一定要登录阿里云云解析添加一个记录，脚本才能正确运行</summary>
 
 记录类型：A
 主机记录：[请填写你的二级域名]
