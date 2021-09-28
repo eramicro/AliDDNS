@@ -34,7 +34,7 @@ AliDDNS.sh config 仅配置工具
 AliDDNS.sh clean 清理配置文件及运行环境
 AliDDNS.sh version 显示版本信息
 
-[Info] 选择你要使用的功能:
+* [Info] 选择你要使用的功能:
 
 配置并运行 AliDDNS
 仅配置 AliDDNS
@@ -44,7 +44,7 @@ AliDDNS.sh version 显示版本信息
 
 在这里，我们输入 1 (数字1) ，后按下回车，开始进入AliDDNS配置向导：
 
-[Info] 请输入一级域名 (比如 example.com)
+* [Info] 请输入一级域名 (比如 example.com)
 (此项必须填写，查看帮助请输入“h”):
 假如你需要设置AliDDNS的域名为ddns.example.com，那么请在这里输入 example.com
 
