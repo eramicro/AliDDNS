@@ -135,17 +135,20 @@ Choose 1-3 [1]:
 当提示 crontab: installing new crontab 时，表示crontab写入成功，执行命令重启cron进程：
 
 For CentOS：
-
+```bash
 service crond restart
+```
 For Ubuntu/Debian：
-
+```bash
 service cron restart
+```
 并将Cron加入开机启动项：
-
 For CentOS：
-
+```bash
 chkconfig crond on
+```
 For Ubuntu/Debian：
-
+```bash
 systemctl enable cron
+```
 即可完成定时任务的部署。
