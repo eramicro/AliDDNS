@@ -143,7 +143,7 @@ For Ubuntu/Debian：
 service cron restart
 ```
 
-## 并将Cron加入开机启动项：
+### 并将Cron加入开机启动项：
 
 For CentOS：
 ```bash
