@@ -44,13 +44,9 @@ AliDDNS.sh version 显示版本信息
 
 在这里，我们输入 1 (数字1) ，后按下回车，开始进入AliDDNS配置向导：
 
-* [Info] 请输入一级域名 (比如 example.com)
-(此项必须填写，查看帮助请输入“h”):
-假如你需要设置AliDDNS的域名为ddns.example.com，那么请在这里输入 example.com
+* [Info] 请输入一级域名 :example.com
 
-分解开就是 [ddns] . [example.com]
-
-同时，登录阿里云云解析 https://dns.console.aliyun.com/，在需要DDNS的域名上，添加一个记录：
+<summary><font  color="red"  >同时，登录阿里云云解析 https://dns.console.aliyun.com/，在需要DDNS的域名上，添加一个记录：</summary>
 
 记录类型：A
 主机记录：[请填写你的二级域名]
