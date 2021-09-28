@@ -124,8 +124,9 @@ Select an editor. To change later, run 'select-editor'.
 Choose 1-3 [1]:
 
 选择完成后，会打开一个文本编辑器，请在文件的最后添加如下一行：
-
+```bash
 */5 * * * * /usr/sbin/aliddnsv2.sh run >/dev/null 2>&1 &
+```
 添加完成后，保存退出。
 
 当提示 crontab: installing new crontab 时，表示crontab写入成功，执行命令重启cron进程：
